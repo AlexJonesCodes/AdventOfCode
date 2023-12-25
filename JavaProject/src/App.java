@@ -40,7 +40,7 @@ public class App {
     }
 
     public String[] readTextFile(String fileName){
-        String Array[] = new String[500];
+        String Array[] = new String[1000];
         int pos = 0;
         try {
             File myObj = new File(fileName);
